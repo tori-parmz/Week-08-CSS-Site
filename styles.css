@@ -1,0 +1,238 @@
+/*body and content for the pages*/
+
+body {
+    resize: auto;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    background-color: #88554b;
+  
+  }
+  
+  .page-content {
+    background-color: white;
+    padding: 15px 0 15px 20px;
+    margin: 0%;
+    width: 100vw;
+  }
+  
+  /*banner*/
+  
+  .quote {
+  font-weight: 300;
+  font-size: 12pt;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 18pt;
+  color:#420b1b
+  }
+  
+  .wrapper {
+    position: relative;
+  
+  }
+  
+  .hero-background {
+    position: absolute;
+    padding: 10px;
+    height: 200px;
+    width: 100vw;
+    margin: 0%;
+    z-index: -1;
+    background-image: url("gallery-images/gallery-walls.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 40%;
+    filter: saturate(40%) blur(2px) brightness(120%);
+   
+  }
+  
+  .hero-content {
+    overflow: auto;
+    position: relative;
+    padding: 10px;
+    height: 200px;
+    width: 100vw;
+    margin: 0%;
+   
+  }
+  
+  /*navigation*/
+  
+  .nav-bar {
+  background-color: #88554b;
+  padding: 20px;
+  width: 100vw;
+  }
+  
+  .nav-bar a {
+  width: 100vw;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(208, 199, 195);
+  font-size: 14pt;
+  font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  
+  }
+  
+  .nav-bar a:hover {
+      color: white
+  }
+  
+  .nav-bar-link {
+      margin: 0px, 30px;
+      word-wrap: normal;
+      display: inline-block;
+  }
+  /*header styles*/
+  h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: 50pt;
+  text-align: center;
+  color: #fcba03;
+  margin: 15px 0 0px 0;
+  
+  }
+  
+  h2 {
+  margin-top: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 35pt;
+  padding: 0px;
+  color:#a06672;
+  }
+  
+  h3 {
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+  
+  }
+  
+  h4 {
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+      text-align: center;
+  }
+  
+  h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 14pt;
+  }
+  
+  /*about page width*/
+  .about-page {
+      width: 60vw;
+  }
+  
+  /*gallery page*/
+  
+  #exhibition-title {
+    color:#a14517
+    }
+    
+    #exhibitions-text {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 30px;
+      margin: 30px;
+    }
+    
+    .exhibitions-list {
+    padding: 30px;
+    margin: 30px;
+    }
+    
+    ol {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  
+  /*gallery grid*/
+  .flex-container {
+      display: flex;
+      align-content:flex-start;
+      gap: 10px;
+      width: 80vw;
+      resize: auto;
+    }
+  
+    
+    .gallery-image img:hover {
+      filter:brightness(115%);
+    
+    }
+  
+    .image-text {
+      word-wrap:normal;
+      width: 90%;
+    }
+  
+  /*footer*/
+  
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: stretch;
+      background-color: #88554b;
+      padding: 10px;
+      margin: 0 5px;
+    }
+  
+    .hours {
+      border-spacing: 20px;
+      padding: 0px 0px 0px 20px;
+      color: white;
+  
+    }
+  
+    th {
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+      font-weight: 400;
+      text-align: left;
+      padding: 0px 20px 10px 10px;
+      font-size: 10pt;
+      text-transform: uppercase;
+  
+    }
+    
+    td {
+      
+      padding: 3px 20px 3px 10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  
+    .address {
+  
+      color: white
+  
+    }
+  
+    .address a {
+      color: white
+    }
+  p {
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+  }
+  
+  /*contact page*/
+  
+  form input {
+    border: 2px solid rgb(116, 60, 60);
+    margin: 1px;
+    border-radius: 5px;
+  
+  }
+  
+  #contact-form {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  padding-left: 2%;
+  }
+  
+  .contact-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+  }
+  
+  
